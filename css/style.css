@@ -1,5 +1,45 @@
+@font-face { font-family: roboto-regular; 
+    src: url('../fonts/Roboto-Regular.ttf'); } 
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+header{
+    background-color: #1F2937;
+    padding:150px;
+    
+}
+
+
+h1{
+    font-size:48px;
+    font-weight: Extra-bold;
+    color: #F9FAF8;
+}
+
+.headerlogo{
+    font-size:24px;
+    color:#F9FAF8;
+ text-decoration-line: none;
+    
+}
+
+ul, .content p, a{
+    font-size:18px;
+    color: #E5E7EB;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
+    padding: 5px 30px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882f6;
+    font-weight:bold;
 }
