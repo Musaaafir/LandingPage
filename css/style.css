@@ -35,8 +35,8 @@ ul{
 }
 
 .right-link{
-    margin-left:60px;
     font-weight:400;
+    margin-right:50px;
 }
 
 
@@ -54,6 +54,8 @@ h1{
     color:#F9FAF8;
     font-weight: 1000;
  text-decoration-line: none;
+ margin-right:160px;
+ margin-left:3px;
     
 }
 
@@ -62,6 +64,10 @@ ul, .content p, a{
     color: #E5E7EB;
     text-decoration-line: none;
     list-style-type: none;
+}
+
+.content p{
+    font-weight:900px;
 }
 
 button{
@@ -73,7 +79,8 @@ button{
     border-color: #3882f6;
     font-weight:600;
     font-size:18px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    margin-top:3px;
 }
 
 .headerp{
@@ -84,22 +91,21 @@ button{
 .headerimg {
     background-color:rgba(113, 119, 131, 1);
     height:230px;
-    width:492px;
-    margin-bottom:px;
+    width:515px;
 }
 
 .headerimg p{
     width:auto;
     height: auto;
-    margin-left: 113px;
-    margin-top:100px;
+    margin-left: 125px;
+    margin-top:87px;
     font-size:18px;
 }
 
 
 .content{
     padding: 110px;
-    padding-left:210px;
+    padding-left:175px;
     padding-top:120px;
     display:flex;
     gap:50px;
