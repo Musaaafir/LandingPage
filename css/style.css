@@ -162,4 +162,41 @@ button{
     width:auto;
     text-align:center;
     font-size:16px;
+    font-weight:400;
+}
+
+section{
+    margin-top:180px;
+    background-color:#e5e7eb;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+.quote{
+    display:flex;
+    flex-flow: row wrap;
+    width:750px;
+}
+
+.quote .quoteone{
+    font-size: 34px;
+    color: #1F2937;
+    font-style: oblique 20deg;
+    font-weight:250;
+}
+
+.firstname{
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+    color:black;
+    font-size:22px;
+    color: #1f2937;
+    font-weight:700;
+    font-style:normal;
+    letter-spacing:0.5px;
+    margin-right:20px;
 }
